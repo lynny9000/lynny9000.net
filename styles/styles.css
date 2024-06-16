@@ -1,0 +1,102 @@
+/* This is for the nav bar at top of page*/
+.navbar {
+  position: relative;
+  z-index: 999;
+  font-family: 'Montserrat';
+  font-size: large;
+  margin-bottom: 20px; /* Adjust the value for desired spacing */
+
+  /* Add background color for the navbar (optional) */
+  background-color: rgb(244, 244, 244);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  color: black;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+/* Add hover effect for individual links */
+  transition: background-color 0.3s ease; /* Optional: smoother transition */
+  background-color: whitesmoke; /* Optional: set default background color for links */
+}
+
+.navbar li a:hover {
+  background-color: grey; /* Change this to your preferred hover color */
+}
+
+/* End of nav bar at top of page */
+
+/*This is the start of the section part of the homepage*/
+/*This puts a box around the welcome details on the homepage*/
+main {
+  width: 900px;
+  margin: auto;
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 5px solid rgb(44,44,44);
+  border-width: 1px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /*This highlights the background of the text*/
+  .highlight-class {
+    background-color: rgb(244, 244, 244);
+  }
+
+  
+h1, h2, h3 {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+p {
+  font-family: 'Montserrat'; 
+  text-align: center;
+}
+
+a {
+  color: rgb(167, 1, 78);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+
+
+
+/*This is the end of the section part of the homepage*/
+
+/* This is the start of the footer css */
+.footer-content {
+  display: flex; /* Enables flexbox layout */
+  justify-content: space-between; /* Distributes content with even space between */
+  align-items: center; /* Aligns content vertically (optional) */
+  font-family: 'Montserrat'; 
+  padding: 10px 20px; /* Padding for the entire content */
+  font-size: 14px; /* Adjust the value for desired size */
+}
+
+.footer-content img {
+  width: 200px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+}
+/* End of footer css*/
+
+
