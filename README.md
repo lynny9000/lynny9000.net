@@ -1,1 +1,1 @@
-This contains the source code for lynny9000.net
+This contains the source code for lynny9000.net.
